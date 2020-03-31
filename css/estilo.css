@@ -1,0 +1,26 @@
+body{background: url(../imagenes/fondo2.jpg) left top repeat;
+background-size: 30%;
+font-family: 'sofadi one';
+}
+
+#menu{min-height: 120px}
+#logo{margin-left: 50px;
+margin-top: 5px;}
+#redes{padding-top: 30px}
+#foto{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#foto:hover{
+transform: scale(1.2, 1.2);
+}
+
+#centro{height: 550px;
+}
+
+#blog{
+margin: 0.3rem;
+
+}
