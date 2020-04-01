@@ -1,12 +1,17 @@
-body{background: url(../imagenes/fondo2.jpg) left top repeat;
-background-size: 30%;
+body{background: url(../imagenes/fondo31.jpg);
+background-size: cover;
+background-position: top center;
 font-family: 'sofadi one';
+background-attachment: fixed;
 }
-
+nav{box-shadow: none !important}
 #menu{min-height: 120px}
 #logo{margin-left: 50px;
-margin-top: 5px;}
+margin-top: 10px;}
 #redes{padding-top: 30px}
+#redes:hover{
+  transform: scale(1.1, 1.1);
+}
 #foto{
   padding-left: 10px;
   padding-right: 10px;
@@ -17,10 +22,13 @@ margin-top: 5px;}
 transform: scale(1.2, 1.2);
 }
 
-#centro{height: 550px;
+#centro{height: 500px;
 }
 
 #blog{
 margin: 0.3rem;
+}
+@media (max-width: 720px) {
+  #centro{height: auto !important;}
 
 }
